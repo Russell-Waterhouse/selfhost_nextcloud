@@ -1,4 +1,3 @@
-        - TZ=Europe/London
 version: "2.1"
 services:
 
