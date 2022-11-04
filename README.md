@@ -1,8 +1,8 @@
-# selfhost_nextcloud
+# Self Hosted Nextcloud Configuration
 A docker-compose file and readme for people to use to setup their own nextcloud instance
 
 ## Configuration: 
-replace 
+In the docker-compose.yml file, replace 
 ```
 {ROOT PASSWORD HERE}
 {PASSWORD HERE} 
@@ -12,7 +12,8 @@ with a strong and complex root password, user password
 and whatever hostname you wish to use.   
 
 I just appended a hostname entry to my /etc/hosts file on the linux machines that I plan 
-to access my nextcloud instance from. 
+to access my nextcloud instance from. For individual users, nothing more complicated is necessary. 
+For enterprise users who wish to buy a domain name or 
 
 ## Installation
 run 
